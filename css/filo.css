@@ -1,0 +1,77 @@
+.filo{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.filos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 10px;
+    border: 10px;
+    border-color: aliceblue;
+}
+
+.filo:hover{
+    transform: scale(1.01); 
+    border: 2px solid #fff;
+    transition: all 1s;
+}
+
+.anim{
+    background-color: #000c;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+h3{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.porif{
+    background-image: url(../imgs/filos/poriferos.jpg);
+    background-size: 400px 200px;
+}
+.cni{
+    background-image: url(../imgs/filos/cnidarios.jpg);
+    background-size: 400px 200px;
+}
+.platel{
+    background-image: url(../imgs/filos/platelmitos.jpg);
+    background-size: 400px 200px;
+}
+.nema{
+    background-image: url(../imgs/filos/nematelmitos.jpg);
+    background-size: 400px 200px;
+}
+.anel{
+    background-image: url(../imgs/filos/anelideos.webp);
+    background-size: 400px 200px;
+}
+.molus{
+    background-image: url(../imgs/filos/moluscos.jpg);
+    background-size: 400px 200px;
+}
+.artro{
+    background-image: url(../imgs/filos/artropodes.webp);
+    background-size: 400px 200px;
+}
+.equi{
+    background-image: url(../imgs/filos/equinodermicos.jpg);
+    background-size: 400px 200px;
+}
+.cor{
+    background-image: url(../imgs/filos/cordados.jpg);
+    background-size: 400px 200px;
+}

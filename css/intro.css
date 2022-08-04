@@ -1,0 +1,23 @@
+.intro{
+    background: linear-gradient(90deg, #0000 , #000a 50%),  url(../imgs/background-intro.jpg);
+    background-position: 30% 45%;;
+    background-repeat : no-repeat;
+    height: 100vh;
+    width: 100vw;
+    flex-grow: 1;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    font-family: 'Mulish', sans-serif;
+    background-size: cover;
+}
+
+.cont{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    color: white;
+}
+

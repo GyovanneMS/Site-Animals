@@ -1,0 +1,20 @@
+.info{
+    background-color: #000d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+}
+
+
+.infoCard{
+    background-color: #000c;
+    text-align: justify;
+}
+
+.small{
+    display: flex;
+    justify-content: end;
+}
