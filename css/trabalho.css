@@ -1,0 +1,44 @@
+main{
+    background-image: url(../imgs/trabalhos/background.webp);
+    background-position: 30% 45%;;
+    background-repeat : no-repeat;
+    background-size: 100%;
+    background-size: 100vw;
+    min-height: 100vh;
+    width: 100vw;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.contant{
+    text-align: center;
+    
+}
+
+.vagas{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.vaga{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.vaga-img{
+    border-radius: 30%;
+    border-color: white;
+}
+
+.img-emprego{
+    background-image: url(../imgs/trabalhos/vaga\ de\ emprego.jpeg);
+}
+
+.img-volun{
+    background-image: url(../imgs/trabalhos/Trabalho\ voluntario.webp);
+}
+

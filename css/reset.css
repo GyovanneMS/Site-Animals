@@ -14,3 +14,7 @@ a:link, a:visited,  a:hover, a:active
 ul{
     list-style: none;
 }
+
+.p, .h1{
+    color: white;
+}
