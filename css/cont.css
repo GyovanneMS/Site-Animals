@@ -1,0 +1,62 @@
+
+.cont{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    /* background-color: darkgoldenrod; */
+    padding-right: 100px;
+}
+
+.informacoesPessoa{
+    /* background-color: pink; */
+    padding-top: 10px;
+}
+
+.inputInfo{
+    padding-top: 5px;
+    width: 100%;
+}
+
+.text{
+    padding-right: 50px;
+}
+
+.ajuda{
+    height: 150px;
+    align-items: top;
+    justify-content: top;
+}
+
+.infoUm{
+    display: flex;
+    flex-direction: row;
+}
+
+.infoDois{
+    display: flex;
+    flex-direction: row;
+}
+
+.infoTres{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoButton{
+    width: 5vw;
+}
+
+.infoTres{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}

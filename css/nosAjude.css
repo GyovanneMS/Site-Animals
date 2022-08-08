@@ -1,0 +1,29 @@
+main{
+    background-color: dimgray;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.doacoes{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.img-pag{
+    height: 100%;
+    width: 100%;
+}
+
+.debito{
+    height: 300px;
+    width: 400px;
+}
+
+.debito-img{
+    background-image: url(../imgs/formasDePagamento/debito.png);
+}

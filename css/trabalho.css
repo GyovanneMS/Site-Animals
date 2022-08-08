@@ -1,4 +1,5 @@
 main{
+    background-color: black;
     background-image: url(../imgs/trabalhos/background.webp);
     background-position: 30% 45%;;
     background-repeat : no-repeat;
@@ -11,34 +12,74 @@ main{
     flex-direction: column;
 }
 
-.contant{
+.content{
     text-align: center;
-    
+    color: white;
+    padding-top: 60px;
+    gap: 30px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+.texto-empregos{
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
 .vagas{
-    height: 100vh;
+    height: 70vh;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .vaga{
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .vaga-img{
-    border-radius: 30%;
+    border-radius: 50%;
     border-color: white;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-img{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 1rem;
+}
+
+.vaga-texto{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 1.5rem;
 }
 
 .img-emprego{
-    background-image: url(../imgs/trabalhos/vaga\ de\ emprego.jpeg);
+    background-image: url(../imgs/trabalhos/vaga\ de\ emprego.jpg);
 }
 
 .img-volun{
     background-image: url(../imgs/trabalhos/Trabalho\ voluntario.webp);
 }
+
+
 

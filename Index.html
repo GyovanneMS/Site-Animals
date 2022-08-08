@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="./css/intro.css">
     <link rel="stylesheet" href="./css/reinos.css">
     <link rel="stylesheet" href="./css/filo.css">
+    <link rel="stylesheet" href="./css/cont.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <title>TCC</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img class="Logo" src="./imgs/worlds-life.png" alt="Logo do site" style="width: 200px"></a>
+              <a class="navbar-brand" href="#"><img class="logo" src="./imgs/worlds-life.png" alt="Logo do site" style="width: 200px"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-toggler-icon"></span>
               </button>
@@ -29,7 +31,7 @@
                     <a class="nav-link" href="./pages/trabalho.html">Trabalhe conosco</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/NosAjude.html">Nos ajude!</a>
+                    <a class="nav-link" href="./pages/nosAjude.html">Nos ajude!</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Página não utilizada.</a>
@@ -114,22 +116,43 @@
         <div class="row">
           <div class="col contato">
             <h3 class="sobreNos">Contato</h3>
-            <p class="textoSobreNos">Nossa empresa ajuda o meio ambiente a se reconstruir e tarará, tanãnã, se quiser nos ajudar, ou precisa de ajuda em algum terro baldio, ou coisa do tipo, nos mande um e-mail!</p>
+            <p class="textoSobreNos">Nossa empresa ajuda o meio ambiente a se reconstruir e tarará, tanãnã, se quiser nos ajudar, ou precisa de ajuda em algum terreno baldio, ou coisa do tipo, nos mande um e-mail!</p>
             <p class="nossasInfos">
               <div class="endereco">Rua 123, bairro Com Nome, Cidade Osasco, estado Tocantins, País Reino Unido, número 180180360</div>
               <div class="email">worldsLife123.queromeunomenomeuemail@gmail.com</div>
               <div class="telefone">(011)94002-8922</div>
             </p>
           </div>
-          <div class="col informacoesPessoa">
+          <form class="col informacoesPessoa">
             <div class="infoPessoal row">
-              <label for=""></label>
+              <div class="infos infoUm inputInfo">
+                <input type="text" class="nome inputInfo text" placeholder="Escreva seu nome">
+
+                <input type="email" class="email inputInfo" placeholder="Escreva seu e-mail">
+              </div>
+              <div class="infos infoDois inputInfo">
+                <input type="text" class="endereço inputInfo text" placeholder="Insira seu endereço (Opcional)">
+                <input type="tel" class="telefone inputInfo" placeholder="Escreva seu telefone">
+              </div>
+              <div class="infoTres inputInfo">
+                <textarea name="" id="" rows="4" cols="50" style="width: 100%;">Escreva como podemos te ajudar</textarea>
+                <input type="submit" value="Enviar" class="infoButton">
+              </div>
             </div>
-          </div>
+          </form>
         </div>
       </div>
       
     </section>
-    <footer></footer>
+    <footer>
+      <div class="links">
+        <p class="privacidade">Políticas de Privacidade</p>
+        <p class="termos">Termos de Uso</p>
+      </div>
+      <div class="redes-sociais">
+
+      </div>
+      <img src="./imgs/worlds-life.png" alt="imagem da logo" class="logo" style="width: 200px">
+    </footer>
 </body>
 </html>
