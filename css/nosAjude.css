@@ -1,11 +1,20 @@
 main{
-    background-image: ur;
-    height: 100vh;
+    background-image: url(../imgs/formasDePagamento/bakgrouns\ doacoes.jpeg);
+    background-repeat : no-repeat;
+    background-position: 30% 45%;
+    flex-grow: 1;
+    height: 90vh;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-size: cover;
+}
+
+.dInicio{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 1.5rem;
 }
 
 .doacoes{
@@ -34,15 +43,22 @@ main{
 .dinheiro{
     border-radius: 50%;
     border-color: white;
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size:  1.5rem;
+    color: black;
 }
 
-p{
-    font-size: 3rem;
+.links p{
+    font-size: 1rem;
+}
+
+.img-pag{
+    color: black;
 }
 
 .debito{
@@ -52,20 +68,27 @@ p{
 
 .credito{
     background-image: url(../imgs/formasDePagamento/credito.jpg);
+    background-size: 90%;
 }
 
 .boletoBancario{
     background-image: url(../imgs/formasDePagamento/boleto-bancario.webp);
+    background-size: 101%;
+    background-repeat : no-repeat;
 }
 
 .pix{
     background-image: url(../imgs/formasDePagamento/pix.webp);
+    background-size: 90%;
 }
 
 .transfBancaria{
     background-image: url(../imgs/formasDePagamento/tranferencia-bancaria.jpg);
+    background-size: 90%;
 }
 
 .imoveis{
     background-image: url(../imgs/formasDePagamento/imoveis.webp);
+    background-size: 90%;
+
 }

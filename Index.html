@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/intro.css">
     <link rel="stylesheet" href="./css/intro.css">
     <link rel="stylesheet" href="./css/reinos.css">
     <link rel="stylesheet" href="./css/filo.css">
@@ -41,9 +43,8 @@
             </div>
           </nav>
     </header>
-    <section class="intro">
-        <div class="nada-intro"></div>
-        <div class="cont">
+    <section class="intro int-ro">
+        <div class="conteudo-intro">
             <h1>Reino animalia</h1>
             <h2>O seu, o meu, o nosso reino</h2>
         </div>
@@ -122,7 +123,7 @@
               <div class="email">worldsLife123.queromeunomenomeuemail@gmail.com</div>
               <div class="telefone">(011)94002-8922</div>
             </p>
-          </div>
+          </div> 
           <form class="col informacoesPessoa">
             <div class="infoPessoal row">
               <div class="infos infoUm inputInfo">
@@ -135,8 +136,8 @@
                 <input type="tel" class="telefone inputInfo" placeholder="Escreva seu telefone">
               </div>
               <div class="infoTres inputInfo">
-                <textarea name="" id="" rows="4" cols="50" style="width: 100%;">Escreva como podemos te ajudar</textarea>
-                <input type="submit" value="Enviar" class="infoButton">
+                <textarea name="" id="" rows="4" cols="50" style="width: 100%;" placeholder="Escreva como podemos te ajudar"></textarea>
+                <input type="submit" value="Enviar" class="infoButton" id="button-enviar" onclick="enviado()">
               </div>
             </div>
           </form>
