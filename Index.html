@@ -124,19 +124,19 @@
               <div class="telefone">(011)94002-8922</div>
             </p>
           </div> 
-          <form class="col informacoesPessoa">
+          <form class="col informacoesPessoa" required>
             <div class="infoPessoal row">
               <div class="infos infoUm inputInfo">
-                <input type="text" class="nome inputInfo text" placeholder="Escreva seu nome">
+                <input type="text" class="nome inputInfo text" placeholder="Escreva seu nome" required>
 
-                <input type="email" class="email inputInfo" placeholder="Escreva seu e-mail">
+                <input type="email" class="email inputInfo" placeholder="Escreva seu e-mail" required>
               </div>
               <div class="infos infoDois inputInfo">
                 <input type="text" class="endereço inputInfo text" placeholder="Insira seu endereço (Opcional)">
-                <input type="tel" class="telefone inputInfo" placeholder="Escreva seu telefone">
+                <input type="tel" class="telefone inputInfo" placeholder="Escreva seu telefone" required>
               </div>
               <div class="infoTres inputInfo">
-                <textarea name="" id="" rows="4" cols="50" style="width: 100%;" placeholder="Escreva como podemos te ajudar"></textarea>
+                <textarea name="" id="" rows="4" cols="50" style="width: 100%;" placeholder="Escreva como podemos te ajudar" required></textarea>
                 <input type="submit" value="Enviar" class="infoButton" id="button-enviar" onclick="enviado()">
               </div>
             </div>
